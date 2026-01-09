@@ -37,6 +37,11 @@ nav a{
     border-radius: 4px;
     cursor: pointer;
 }
+.btn:hover{
+    color: black;
+    background: lightgreen;
+    font-size: 16px;
+}
 div .banner-btn{
     width: 173px;
     height: 19px;
@@ -47,6 +52,11 @@ div .banner-btn{
     cursor: pointer;
     margin-bottom: 20px;
 }
+div .banner-btn:hover{
+    color: black;
+    background: lightgreen;
+    font-size: 12px;
+}
 .banner-down .b-btn{
     width: 146px;
     height: 34px;
@@ -56,6 +66,11 @@ div .banner-btn{
     cursor: pointer;
     background: transparent;
     border: 1px solid #FFFFFF;
+}
+.banner-down .b-btn:hover{
+    color: black;
+    background: lightgreen;
+    font-size: 16px;
 }
 .banner .banner-down{
     display: flex;
@@ -173,4 +188,27 @@ div .banner-btn{
 }
 .cta .btn{
     margin-bottom: 20px;
+}
+.footer {
+    background: #000000;
+    padding: 20px 0;
+}
+
+.footer-box{
+    width: 90%;
+    height: 220px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 14px;
+}
+.logo img {
+    height: 40px;
+}
+.social a{
+    color: #fff;
+    margin-left: 10px;
+    text-decoration: none;
 }

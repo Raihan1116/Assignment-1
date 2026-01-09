@@ -89,6 +89,7 @@ div .banner-btn{
 .problem{
     padding: 80px 120px;
     text-align: center;
+    height: 380px;
 }
 .problem h2{
     font-size: 40px;
@@ -122,5 +123,37 @@ div .banner-btn{
     border-radius: 8px;
     background: #f9fafb;
     box-shadow: 0px 0px 8px 0px gray;
+}
+
+.solution{
+    margin: 120px;
+    padding: 80px 20px;
+    background: #f9fafb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    height: 380px;    
+}
+.solution-img img{
+    width: 400px;
+    height: 400px;
+}
+.solution-text .up-p{
+    font-size: 10px;
+    color: #30B868;
+    margin-bottom: 16px;
+}
+.solution-text h2{
+    font-size: 35px;
+    margin-bottom: 16px;
+}
+.solution-text p{
+    font-size: 12px;
+    margin-bottom: 40px;
+}
+.solution-text ul{
+    list-style: none;
+    font-size: 16px;
 }
 

@@ -64,12 +64,13 @@ div .banner-btn{
 }
 .banner{
     
-    width: 1264px;
-    height: 500px;
-    background-repeat: no-repeat;
+   background-repeat: no-repeat;
    background: url("../assets/hero-bg.png");
    padding: 100px 20px;
+   height: 600px;
    text-align: center;
+   background-position: center;
+   background-size: cover;
 }
 .banner .banner-tittle h1{
     color: #FFFFFF;
@@ -85,4 +86,41 @@ div .banner-btn{
     margin-bottom: 15px;
 }
 
+.problem{
+    padding: 80px 120px;
+    text-align: center;
+}
+.problem h2{
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+.problem p{
+    font-size: 12px;
+    margin-bottom: 44px;
+}
+.problem .problem-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400px;
+}
+
+.card img{
+    background-color: red;
+    border-radius: 50px;
+}
+.card h4{
+    margin-bottom: 16px;
+}
+.card p{
+    font-size: 12px;
+    text-align: center;
+}
+.card{
+    padding: 30px;
+    gap: 12px;
+    border-radius: 8px;
+    background: #f9fafb;
+    box-shadow: 0px 0px 8px 0px gray;
+}
 
